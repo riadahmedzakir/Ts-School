@@ -67,14 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log("Hello !");
-var wtf = "WTF";
-document.getElementById("test").innerHTML = wtf;
-function sama() {
-    console.log("Sama");
-}
-sama();
-
+throw new Error("Module parse failed: Unexpected token (14:28)\nYou may need an appropriate loader to handle this file type.\n| function studentListDispaly(task) {\r\n|     var newStudentRow = document.createElement(\"tr\");\r\n|     document.getElementById.(\"studentsInfoTable\").appendChild(newStudentRow);\r\n|     var newStudentNameCol = document.createElement(\"td\");\r\n|     var newStudentIdCol = document.createElement(\"td\");\r");
 
 /***/ })
 /******/ ]);

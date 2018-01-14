@@ -2,14 +2,28 @@
 <html>
 
 <head>
-    <title>TypeScript Learning</title>
+    <title>TypeScript Learning</title>    
 </head>
 
 <body>
+	<div>	
+		<input id="studentName" type="text" placeholder="Student Name....">
+		<input id="studentMark" type="number" placeholder="Obtainted Marks....">
+		<button id="addStudentButton" type="button">Add Student</button>
+	</div>
+	<div id="container">
+		<h3>Student Management</h3>
+		<table id="studentsInfoTable" width="100%" style="border:1px solid black">
+			<tr>
+				<th> Student Name </th>
+				<th> Student ID </th>
+				<th> Marks </th>
+				<th> Option </th>
+			</tr>
+		</table>
+	</div>
 
-	<p id="test"></p>
-	<p id="test2"></p>
-    <script type="text/javascript" src="dist/bundle.js"></script>
+	<script src="dist/bundle.js"></script>
 </body>
 
 </html>
